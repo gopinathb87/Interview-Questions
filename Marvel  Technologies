@@ -1,0 +1,118 @@
+Marvel Technologies :
+Ayuj Verma - 1st round 
+
+
+Networking:
+how packet forwarding at chip level 
+TGN - how are streams and flows and what needs to modified for different queue and hash.
+What router will do l2/L3 forwarding.
+how you will generate traffic from traffic generator
+
+
+Python : 
+Mutable and immutable tuple and list
+Functions with diffrent arguments  (with and without keyword)
+Pexpect
+recurcive how its works in python 
+what is threading will python supports 
+Paramiko
+__init__ __main__ can we ignore __int__ from class 
+how to use functions from file without using import
+inheritance
+how ur code using the connect library 
+how logging works whether it will print only the router output or else user can add the any inputs.??
+Do you remember one subject in college which we studied about threading ( FIFO | Pipes ) 
+
+
+
+
+
+
+
+def hello(a= 11, b)
+     print a, b
+     
+     
+hello(b =10, a = 9)
+hello(9, b = 10)
+
+
+hello(10, b = 11)
+=========================================
+
+def hello()
+   
+   return 10
+   
+def bye(func)
+    b = func()
+    print b
+    
+bye(hello)
+
+
+
+lisr = [1,2,3,4,5,6]
+
+list1 = [i**2 for i in lisr if i%2 == 0]
+
+
+import paramiko 
+
+co =  parmamiko.SSHClient()
+con = co.connect("10.0.0.1","22",Un,PW)
+
+co.send("ls")
+op = co.recv(65535)
+print(op)
+
+
+r1_l2 = l2base(co)
+
+
+
+Class l2_base():
+   def __init__(rtrobj)
+       print("Hello")
+   def __main__    
+   def test1():
+     raise "NotImplemented Error"
+
+Class l2_9k_xr_cli(l2_base):
+   def test1():
+     print(hello)
+  def test2():
+    print()
+     
+Class l2_fretta_xr_cli(l2_9k_xr_cli):
+    def test1():
+      print(Fretta Hello)
+      
+
+
+ls 
+/home/hello/code/all/a.py
+/home/hello/code/lib/ a  , b , c 
+class new()
+ hello()    
+ 
+ CAFYKIT = /home/hello/code/
+ 
+ from  /all/a import new
+ 
+ new.hello
+ 
+ 
+num =5 
+
+def fact(num):
+    if num == 1:
+        return num
+    else: 
+        return num * fact(num-1)
+
+print(fact(num))
+
+
+
+
